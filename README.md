@@ -1,6 +1,6 @@
 # React Hamburger Icon
 
-[![NPM](https://img.shields.io/npm/v/react-hamburger-icon)](https://www.npmjs.com/package/react-hamburger-icon) [![Jest](https://github.com/radioactivepesto/react-hamburger-icon/workflows/tests/badge.svg?branch=master&event=push)](https://github.com/radioactivepesto/react-hamburger-icon/actions?query=workflow%3Atests) [![Codecov](https://img.shields.io/codecov/c/github/radioactivepesto/react-hamburger-icon)](https://codecov.io/gh/radioactivepesto/react-hamburger-icon) [![License](https://img.shields.io/npm/l/react-hamburger-icon)](https://github.com/radioactivepesto/react-hamburger-icon/blob/master/LICENSE.md)
+[![NPM](https://img.shields.io/npm/v/react-hamburger-icon)](https://www.npmjs.com/package/react-hamburger-icon) [![License](https://img.shields.io/npm/l/react-hamburger-icon)](https://github.com/radioactivepesto/react-hamburger-icon/blob/master/LICENSE.md)
 
 A featherweight animated 'hamburger' menu icon for React. Highly configurable and stylable, with sensible defaults.
 

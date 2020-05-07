@@ -35,7 +35,7 @@
   "bugs": {
     "url": "https://github.com/radioactivepesto/react-hamburger-icon/issues"
   },
-  "homepage": "https://github.com/radioactivepesto/react-hamburger-icon/",
+  "homepage": "https://radioactivepesto.github.io/react-hamburger-icon/",
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

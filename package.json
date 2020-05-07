@@ -1,6 +1,6 @@
 {
   "name": "react-hamburger-icon",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Featherweight animated hamburger icon for React",
   "main": "lib/index.js",
   "module": "lib/index.es.js",

@@ -12,7 +12,8 @@
     "develop": "rollup -c -w",
     "develop:docs": "start-storybook -p 3002 --ci --quiet --docs",
     "build": "rollup -c",
-    "deploy:docs": "storybook-to-ghpages --docs",
+    "build-storybook": "build-storybook --docs",
+    "deploy:docs": "storybook-to-ghpages --out .cache",
     "clean": "rm -rf ./lib",
     "prepublishOnly": "npm run build"
   },

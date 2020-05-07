@@ -14,7 +14,7 @@ npm i react-hamburger-icon
 
 Import the component and use it anywhere you want a hamburger icon. Pass an `open` prop to determine whether it shows an open state. You can configure it with `animation`, `lineWidth`, and `duoLine` props, as well as style things like size and color directly on the component.
 
-See the [API Docs](radioactivepesto.com/react-hamburger-icon/?path=/docs/api-demo--default) for a full overview of props and options.
+See the [API Docs](https://radioactivepesto.github.io/react-hamburger-icon/?path=/docs/api-demo--default) for a full overview of props and options.
 
 ```js
 import React, { useState } from 'react';

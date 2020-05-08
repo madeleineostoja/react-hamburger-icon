@@ -1,4 +1,5 @@
 import { Meta } from '@storybook/addon-docs/blocks';
+import { linkTo } from '@storybook/addon-links';
 import { HamburgerIcon } from '.';
 
 <Meta title="Overview" component={HamburgerIcon} />
@@ -19,7 +20,7 @@ npm i react-hamburger-icon
 
 Import the component and use it anywhere you want a hamburger icon. Pass an `open` prop to determine whether it shows an open state. You can configure it with `animation`, `lineWidth`, and `duoLine` props, as well as style things like size and color directly on the component.
 
-See the [API Docs](/?path=/docs/api-demo--default) for a full overview of props and options.
+See the <a onClick={linkTo('API & Demo')}>API Docs</a> for a full overview of props and options.
 
 ```js
 import React, { useState } from 'react';

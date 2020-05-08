@@ -47,9 +47,9 @@ export function HamburgerIcon({
     height: ${lineWidth};
     border-radius: ${lineWidth};
     ${open &&
-    css`
-      top: 50% !important;
-    `}
+      css`
+        top: 50% !important;
+      `}
   `;
 
   return (

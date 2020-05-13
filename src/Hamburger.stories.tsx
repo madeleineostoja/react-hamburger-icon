@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HamburgerIcon, HamburgerIconProps } from '.';
 
 export default {
@@ -6,11 +6,22 @@ export default {
   component: HamburgerIcon
 };
 
-export const Default = (props: HamburgerIconProps) => (
-  <HamburgerIcon {...props} />
-);
+export const Default = (props: HamburgerIconProps) => {
+  const [open, setOpen] = useState(false);
 
-/** HamburgerIcon with two lines */
-export const DuoLine = ({ duoLine = true, ...props }: HamburgerIconProps) => (
-  <HamburgerIcon {...{ duoLine, ...props }} />
-);
+  return (
+    <HamburgerIcon open={open} onClick={() => setOpen(!open)} {...props} />
+  );
+};
+
+export const DuoLine = ({ duoLine = true, ...props }: HamburgerIconProps) => {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <HamburgerIcon
+      open={open}
+      onClick={() => setOpen(!open)}
+      {...{ duoLine, ...props }}
+    />
+  );
+};

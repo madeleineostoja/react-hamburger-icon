@@ -35,14 +35,12 @@ export function HamburgerIcon({
     position: absolute;
     background: currentColor;
     transition: ${open
-      ? `top ${animation.duration}ms ${animation.duration + 50}ms ${
+      ? `top ${animation.duration}ms 50ms ${animation.easing}, transform ${
+          animation.duration
+        }ms ${animation.duration + 50}ms ${animation.easing};`
+      : `top ${animation.duration}ms ${animation.duration + 50}ms ${
           animation.easing
-        }, transform ${animation.duration}ms 50ms ${animation.easing};`
-      : `transition: top ${animation.duration}ms 50ms ${
-          animation.easing
-        }, transform ${animation.duration}ms ${animation.duration + 50}ms ${
-          animation.easing
-        };`};
+        }, transform ${animation.duration}ms 50ms ${animation.easing};`};
     width: 100%;
     height: ${lineWidth};
     border-radius: ${lineWidth};
